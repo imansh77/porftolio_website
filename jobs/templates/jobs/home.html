@@ -1,4 +1,4 @@
-
+{% load staticfiles %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,8 +28,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link" href="https://github.com/imansh77">Github</a>
-{#          <a class="nav-item nav-link" href="{% static 'Github.jpg' %}">Resume</a>#}
-{#          <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>#}
+          <a class="nav-item nav-link" href="{% static 'Github.jpg' %}">Resume</a>
+          <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>
         </div>
       </div>
     </nav>
